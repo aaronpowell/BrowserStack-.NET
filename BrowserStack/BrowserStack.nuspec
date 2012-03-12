@@ -6,8 +6,8 @@
     <title>BrowserStack Automated testing API</title>
     <authors>Aaron Powell</authors>
     <owners>Aaron Powell</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <licenseUrl>https://github.com/aaronpowell/BrowserStack-.NET/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/aaronpowell/BrowserStack-.NET</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A .NET API for BrowserStacks automated testing API</description>
     <copyright>Copyright 2012</copyright>
