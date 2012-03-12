@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserStack", "BrowserStack\BrowserStack.csproj", "{253506EE-7289-47AF-AAB2-DA6C74DCF213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserStack.Tests", "BrowserStack.Tests\BrowserStack.Tests.csproj", "{7EE1BC08-4B84-4381-B211-28909B061011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{253506EE-7289-47AF-AAB2-DA6C74DCF213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253506EE-7289-47AF-AAB2-DA6C74DCF213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253506EE-7289-47AF-AAB2-DA6C74DCF213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253506EE-7289-47AF-AAB2-DA6C74DCF213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE1BC08-4B84-4381-B211-28909B061011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE1BC08-4B84-4381-B211-28909B061011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE1BC08-4B84-4381-B211-28909B061011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE1BC08-4B84-4381-B211-28909B061011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

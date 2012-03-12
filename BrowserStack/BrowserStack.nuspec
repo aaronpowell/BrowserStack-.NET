@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>BrowserStack</id>
+    <version>1.0.0</version>
+    <title>BrowserStack Automated testing API</title>
+    <authors>Aaron Powell</authors>
+    <owners>Aaron Powell</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .NET API for BrowserStacks automated testing API</description>
+    <copyright>Copyright 2012</copyright>
+    <tags>BrowserStack Web</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="4.0.8" />
+    </dependencies>
+  </metadata>
+</package>
