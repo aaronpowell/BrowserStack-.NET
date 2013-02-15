@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("BrowserStack")]
-[assembly: AssemblyDescription("A .NET API for BrowserStacks automated testing API")]
+[assembly: AssemblyDescription("A .NET API for BrowserStack's automated testing API.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Aaron Powell")]
-[assembly: AssemblyCopyright("Copyright ©  2012 Aaron Powell")]
-[assembly: AssemblyTrademark("Aaron Powell")]
+[assembly: AssemblyProduct("BrowserStack.NET")]
+[assembly: AssemblyCopyright("Copyright © 2012-2013")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -21,5 +21,5 @@ using System.Runtime.InteropServices;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("f778cb11-0948-4c23-a4e2-9ba549190b1b")]
 
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]

@@ -1,19 +1,24 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-  <metadata>
-    <id>BrowserStack</id>
-    <version>1.0.0</version>
-    <title>BrowserStack Automated testing API</title>
-    <authors>Aaron Powell</authors>
-    <owners>Aaron Powell</owners>
-    <licenseUrl>https://github.com/aaronpowell/BrowserStack-.NET/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/aaronpowell/BrowserStack-.NET</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A .NET API for BrowserStacks automated testing API</description>
-    <copyright>Copyright 2012</copyright>
-    <tags>BrowserStack Web</tags>
-    <dependencies>
-      <dependency id="Newtonsoft.Json" version="4.0.8" />
-    </dependencies>
-  </metadata>
+    <metadata>
+        <id>BrowserStack</id>
+        <version>2.0.0</version>
+        <title>BrowserStack Automated testing API for .NET</title>
+        <authors>Aaron Powell,Werner van Deventer</authors>
+        <owners>Aaron Powell</owners>
+        <licenseUrl>https://github.com/aaronpowell/BrowserStack-.NET/blob/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/aaronpowell/BrowserStack-.NET</projectUrl>
+        <iconUrl>http://www.modern.ie/cdn/img/icons/logo-separate-big_reasonably_small.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A .NET API for BrowserStack's automated testing API - https://github.com/browserstack/api</description>
+        <releaseNotes>Updated to use v3.0 of the API.</releaseNotes>
+        <copyright>Copyright 2012-2013</copyright>
+        <tags>BrowserStack Web</tags>
+        <dependencies>
+            <dependency id="Newtonsoft.Json" version="4.5.11" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\BrowserStack.dll" target="lib\net35\BrowserStack.dll" />
+    </files>
 </package>
