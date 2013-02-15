@@ -4,21 +4,36 @@ using System.Configuration;
 
 namespace BrowserStack.Tests
 {
-    [TestClass]
-    public class BrowserTests
+  [TestClass]
+  public class BrowserTests
+  {
+    [TestMethod]
+    public void ThereShouldBeAtLeastOneBrowser()
     {
-        [TestMethod]
-        public void ThereShouldBeAtLeastOneBrowser()
-        {
-            //Arrange
-            var stack = new BrowserStack(ConfigurationManager.AppSettings["username"],
-                                         ConfigurationManager.AppSettings["password"]);
+      //Arrange
+      var stack = new BrowserStack(ConfigurationManager.AppSettings["username"],
+                                   ConfigurationManager.AppSettings["password"]);
 
-            //Act
-            var browsers = stack.Browsers();
+      //Act
+      var browsers = stack.Browsers();
 
-            //Assert
-            Assert.IsTrue(browsers.Any());
-        }
+      //Assert
+      Assert.IsTrue(browsers.Any());
     }
+
+    [TestMethod]
+    public void ThereShouldBeApiTimeRemaining()
+    {
+      //Arrange
+      var stack = new BrowserStack(ConfigurationManager.AppSettings["username"],
+                                   ConfigurationManager.AppSettings["password"]);
+
+      //Act
+      var status = stack.GetApiStatus();
+
+      //Assert
+      Assert.IsTrue(string.IsNullOrEmpty(status.Message));
+      Assert.IsTrue(status.AvailableTime.TotalSeconds > 0);
+    }
+  }
 }
